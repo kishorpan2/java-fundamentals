@@ -82,4 +82,20 @@ public class LibraryTest {
         int [] result = new int []{16,18,20};
         assertArrayEquals(obj.lowestAvg(input),result);
     }
+    @Test
+    public void testWeather(){
+        int [][] inputTemperatures = {
+                {70, 78, 80},
+                {69, 74, 76},
+                {78, 80, 82},
+                {84, 86, 88}
+        };
+        Library obj = new Library();
+        String outputTemps = "71727375777981838587"; ///
+
+        //set a new arraylist to the output of your method
+
+//        Library.weatherData(inputTemperatures);
+        assertEquals(obj.weatherData(inputTemperatures),outputTemps);
+    }
 }

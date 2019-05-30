@@ -3,7 +3,7 @@
  */
 package basiclibrary;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class Library {
     //https://stackoverflow.com/questions/1200621/how-do-i-declare-and-initialize-an-array-in-java
@@ -68,4 +68,26 @@ public class Library {
                 }
                 return result;
             }
+    public static String weatherData(int [][] arr) {
+        // create a hashSet
+        HashSet<Integer> hset = new HashSet();
+        // put values of the array into the hashSet
+        for (int i = 0; i < arr.length; i++){
+            for(int item : arr[i]){
+                hset.add(item);
+            }
+        }
+        System.out.println("The high was :" + Collections.max(hset));
+        System.out.println("The low was :" + Collections.min(hset));
+        String s = new String();
+        for (int i = Collections.min(hset); i < Collections.max(hset); i++){
+
+
+            if (!hset.contains(i)){
+                s += i;
+                System.out.println("Never saw : " + i);
+            }
+        }
+       return s;
+    }
 }
