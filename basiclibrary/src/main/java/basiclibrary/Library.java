@@ -3,13 +3,15 @@
  */
 package basiclibrary;
 
+import java.util.ArrayList;
+
 public class Library {
     //https://stackoverflow.com/questions/1200621/how-do-i-declare-and-initialize-an-array-in-java
-    public static int[] roll(int n){
+    public static int[] roll(int n) {
         // make an array
-        int[] myIntArray = new int[n];;
+        int[] myIntArray = new int[n];
         // inside a for loop
-        for(int i=0; i<n;i++) {
+        for (int i = 0; i < n; i++) {
             //https://www.mkyong.com/java/java-generate-random-integers-in-a-range/
             double randomNum = (Math.random() * ((6 - 1) + 1)) + 1;
             // random number
@@ -19,4 +21,51 @@ public class Library {
         }
         return myIntArray;
     }
+
+    // this function checks for duplicate values in an array
+    public boolean duplicateFinder(int[] arr) {
+        boolean result = false;
+        ArrayList<Integer> aList = new ArrayList<Integer>(arr.length);
+        for (int item : arr) {
+            if (aList.contains(item)) {
+                result = true;
+            }
+            aList.add(item);
+        }
+        return result;
+    }
+
+    // Return Average
+    public double averages(int[] input) {
+        double sum = 0;
+        if (input.length == 0) {
+
+        } else {
+            for (int item : input) {
+                sum += item;
+            }
+            return (sum / input.length);
+        }
+        return sum;
+    }
+
+    // Calculate the average value for each array and return result array
+    public int[] lowestAvg(int[][] input) {
+        int[] result = {};
+        double average = 0;
+        boolean isTrue = true;
+        for (int[] item : input) {
+            double newAvg = averages(item);
+            if(isTrue){
+                average = newAvg;
+                result = item;
+                isTrue = false;
+            }
+        if (newAvg < average){
+            average = newAvg;
+            result = item;
+        }
+                }
+                return result;
+            }
 }
