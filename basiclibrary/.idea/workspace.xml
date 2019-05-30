@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28036d97-ca7d-49dd-b819-8fd54ea982c5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/basiclibrary/Library.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/basiclibrary/Library.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/basiclibrary/LibraryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/basiclibrary/LibraryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -23,8 +28,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+            <state relative-caret-position="493">
+              <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#189#0" expanded="true" />
+                <element signature="e#896#905#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -32,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="257">
+              <caret line="78" column="11" lean-forward="true" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,10 +51,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="356">
+              <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -58,16 +76,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" />
         <option value="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
+    <option name="x" value="606" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="821" />
+    <option name="width" value="834" />
+    <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -84,53 +104,6 @@
               <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
               <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="basiclibrary" type="b2602c69:ProjectViewProjectNode" />
-              <item name="basiclibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="basiclibrary" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -140,7 +113,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559156404140" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559183069066" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -155,8 +128,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.LibraryTest.testRoll">
-    <configuration name="LibraryTest.testRoll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LibraryTest.lowestAvgEvenArr">
+    <configuration name="LibraryTest.lowestAvgEvenArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary.test" />
       <extension name="coverage">
         <pattern>
@@ -166,13 +139,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="basiclibrary" />
       <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
-      <option name="METHOD_NAME" value="testRoll" />
+      <option name="METHOD_NAME" value="lowestAvgEvenArr" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testSomeLibraryMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="LibraryTest.lowestAvgOddArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary.test" />
       <extension name="coverage">
         <pattern>
@@ -182,7 +155,55 @@
       </extension>
       <option name="PACKAGE_NAME" value="basiclibrary" />
       <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
-      <option name="METHOD_NAME" value="testSomeLibraryMethod" />
+      <option name="METHOD_NAME" value="lowestAvgOddArr" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testAvgEven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basiclibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basiclibrary" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
+      <option name="METHOD_NAME" value="testAvgEven" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testAvgOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basiclibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basiclibrary" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
+      <option name="METHOD_NAME" value="testAvgOdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testDuplicateEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basiclibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basiclibrary" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
+      <option name="METHOD_NAME" value="testDuplicateEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -190,8 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LibraryTest.testRoll" />
-        <item itemvalue="JUnit.LibraryTest.testSomeLibraryMethod" />
+        <item itemvalue="JUnit.LibraryTest.lowestAvgEvenArr" />
+        <item itemvalue="JUnit.LibraryTest.lowestAvgOddArr" />
+        <item itemvalue="JUnit.LibraryTest.testAvgOdd" />
+        <item itemvalue="JUnit.LibraryTest.testAvgEven" />
+        <item itemvalue="JUnit.LibraryTest.testDuplicateEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -209,15 +233,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest_testSomeLibraryMethod - 2019.05.29 at 11h 14m 06s.xml">
-      <configuration name="LibraryTest.testSomeLibraryMethod" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testDuplicateEmpty - 2019.05.29 at 18h 40m 29s.xml">
+      <configuration name="LibraryTest.testDuplicateEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="LibraryTest_testRoll - 2019.05.29 at 11h 50m 03s.xml">
-      <configuration name="LibraryTest.testRoll" configurationId="JUnit" />
+    <history-entry file="LibraryTest_testDuplicateEmpty - 2019.05.29 at 18h 43m 35s.xml">
+      <configuration name="LibraryTest.testDuplicateEmpty" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testAvgEven - 2019.05.29 at 18h 46m 45s.xml">
+      <configuration name="LibraryTest.testAvgEven" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testAvgOdd - 2019.05.29 at 18h 47m 47s.xml">
+      <configuration name="LibraryTest.testAvgOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testAvgOdd - 2019.05.29 at 18h 47m 56s.xml">
+      <configuration name="LibraryTest.testAvgOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testAvgOdd - 2019.05.29 at 18h 48m 06s.xml">
+      <configuration name="LibraryTest.testAvgOdd" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_lowestAvgOddArr - 2019.05.29 at 19h 07m 58s.xml">
+      <configuration name="LibraryTest.lowestAvgOddArr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_lowestAvgOddArr - 2019.05.29 at 19h 08m 36s.xml">
+      <configuration name="LibraryTest.lowestAvgOddArr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_lowestAvgOddArr - 2019.05.29 at 19h 09m 00s.xml">
+      <configuration name="LibraryTest.lowestAvgOddArr" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_lowestAvgEvenArr - 2019.05.29 at 19h 10m 35s.xml">
+      <configuration name="LibraryTest.lowestAvgEvenArr" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="817" extended-state="6" />
+    <frame x="606" y="23" width="834" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -225,16 +273,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.33103448" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32918397" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32965517" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3305671" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -251,27 +299,38 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="60" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+        <state relative-caret-position="493">
+          <caret line="46" column="40" lean-forward="true" selection-start-line="46" selection-start-column="40" selection-end-line="46" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#189#0" expanded="true" />
+            <element signature="e#896#905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="24" column="1" lean-forward="true" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="257">
+          <caret line="78" column="11" lean-forward="true" selection-start-line="78" selection-start-column="11" selection-end-line="78" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
+        <state relative-caret-position="45">
+          <caret line="3" column="43" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
         </state>
       </provider>
     </entry>

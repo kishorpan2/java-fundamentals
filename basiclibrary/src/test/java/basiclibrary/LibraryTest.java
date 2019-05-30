@@ -19,7 +19,67 @@ public class LibraryTest {
     public void testRoll() {
         Library classUnderTest = new Library();
         int[] testArray = classUnderTest.roll(4);
-        assertTrue("checkOutput should return 'true'", testArray[0] >=1 && testArray[0] <=6);
+        assertTrue("checkOutput should return 'true'", testArray[0] >= 1 && testArray[0] <= 6);
     }
 
+    @Test
+    public void testDuplicateFinder() {
+        Library obj = new Library();
+        int[] input = new int[]{1, 2, 5, 7, 9, 11};
+        boolean result = false;
+        assertEquals(obj.duplicateFinder(input), result);
+    }
+
+    @Test
+    public void testDuplicateRepeat() {
+        Library obj = new Library();
+        int[] input = new int[]{1, 5, 2, 5, 7, 9, 11};
+        boolean result = true;
+        assertEquals(obj.duplicateFinder(input), result);
+    }
+
+    @Test
+    public void testAvgEmpty() {
+        Library obj = new Library();
+        int[] input = { };
+        double result = 0;
+        assertEquals(obj.averages(input), result,0.21);
+    }
+    @Test
+    public void testAvgEven() {
+        Library obj = new Library();
+        int[] input = {2,2,2,2};
+        double result = 2;
+        assertEquals(obj.averages(input), result,0.21);
+    }
+    @Test
+    public void testAvgOdd() {
+        Library obj = new Library();
+        int[] input = {2,2,2};
+        double result = 2;
+        assertEquals(obj.averages(input), result,0.21);
+    }
+    @Test
+    public void lowestAvgOddArr(){
+        Library obj = new Library();
+        int [][] input = {
+                {22, 24, 26},
+                {28, 30, 32},
+                {34, 36, 38}
+        };
+        int [] result = new int []{22, 24, 26};
+        assertArrayEquals(obj.lowestAvg(input),result);
+    }
+    @Test
+    public void lowestAvgEvenArr(){
+        Library obj = new Library();
+        int [][] input = {
+                {16, 18, 20},
+                {22, 24, 26},
+                {28, 30, 32},
+                {34, 36, 38}
+        };
+        int [] result = new int []{16,18,20};
+        assertArrayEquals(obj.lowestAvg(input),result);
+    }
 }
