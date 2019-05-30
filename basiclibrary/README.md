@@ -1,4 +1,4 @@
-**lab2**
+_lab 2_
 # Feature Tasks #
 ## Rolling Dice ##
 * This method generates an array of values number of times a dice was rolled
@@ -8,3 +8,6 @@
 * accepts an array of integers and calculates and returns the average of all the values in the array
 ## Arrays of Arrays ##
 * This method calculate the average value for each array and return the array with the lowest average.
+
+[Code](./src/main/java/basiclibrary/Library.java)
+[Test](/src/test/java/basiclibrary/LibraryTest.java)
