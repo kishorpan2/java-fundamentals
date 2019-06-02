@@ -9,5 +9,5 @@ _lab 2_
 ## Arrays of Arrays ##
 * This method calculate the average value for each array and return the array with the lowest average.
 
-[Code](./src/main/java/basiclibrary/Library.java)
+[Code](./src/main/java/basiclibrary/Library.java) |
 [Test](/src/test/java/basiclibrary/LibraryTest.java)
