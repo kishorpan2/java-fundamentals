@@ -6,6 +6,22 @@ package basiclibrary;
 import java.util.*;
 
 public class Library {
+
+    public static void main(String[] args) {
+        List<String> votes = new ArrayList<>();
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Bush");
+        votes.add("Shrub");
+        votes.add("Hedge");
+        votes.add("Shrub");
+        votes.add("Bush");
+        votes.add("Hedge");
+        votes.add("Bush");
+
+        tally(votes);
+
+    }
     //https://stackoverflow.com/questions/1200621/how-do-i-declare-and-initialize-an-array-in-java
     public static int[] roll(int n) {
         // make an array
@@ -56,38 +72,62 @@ public class Library {
         boolean isTrue = true;
         for (int[] item : input) {
             double newAvg = averages(item);
-            if(isTrue){
+            if (isTrue) {
                 average = newAvg;
                 result = item;
                 isTrue = false;
             }
-        if (newAvg < average){
-            average = newAvg;
-            result = item;
-        }
-                }
-                return result;
+            if (newAvg < average) {
+                average = newAvg;
+                result = item;
             }
-    public static String weatherData(int [][] arr) {
+        }
+        return result;
+    }
+
+    public static String weatherData(int[][] arr) {
         // create a hashSet
         HashSet<Integer> hset = new HashSet();
         // put values of the array into the hashSet
-        for (int i = 0; i < arr.length; i++){
-            for(int item : arr[i]){
+        for (int i = 0; i < arr.length; i++) {
+            for (int item : arr[i]) {
                 hset.add(item);
             }
         }
         System.out.println("The high was :" + Collections.max(hset));
         System.out.println("The low was :" + Collections.min(hset));
         String s = new String();
-        for (int i = Collections.min(hset); i < Collections.max(hset); i++){
+        for (int i = Collections.min(hset); i < Collections.max(hset); i++) {
 
 
-            if (!hset.contains(i)){
+            if (!hset.contains(i)) {
                 s += i;
                 System.out.println("Never saw : " + i);
             }
         }
-       return s;
+        return s;
     }
+
+    public static String tally(List<String> list) {
+        // create a new hashmap
+
+        HashMap<String, Integer> myMap = new HashMap<String, Integer>();
+        for (String item : list) {
+            myMap.put(item, 0);
+        }
+        int max = 0;
+        String maxVotes = "";
+        for (String item : list) {
+            if (myMap.get(item) > max) {
+                max = myMap.get(item) + 1;
+                maxVotes = item;
+
+            }
+            myMap.put(item, myMap.get(item) + 1);
+
+        }
+        return maxVotes;
+
+    }
+
 }
