@@ -4,6 +4,10 @@
 package basiclibrary;
 
 import org.junit.Test;
+
+import java.util.AbstractList;
+import java.util.ArrayList;
+
 import static org.junit.Assert.*;
 
 public class LibraryTest {
@@ -93,9 +97,25 @@ public class LibraryTest {
         Library obj = new Library();
         String outputTemps = "71727375777981838587"; ///
 
-        //set a new arraylist to the output of your method
-
-//        Library.weatherData(inputTemperatures);
         assertEquals(obj.weatherData(inputTemperatures),outputTemps);
     }
-}
+    @Test
+    public void testTally() {
+        Library obj = new Library();
+
+            ArrayList<String> votes = new ArrayList<String>();
+            votes.add("Bush");
+            votes.add("Bush");
+            votes.add("Bush");
+            votes.add("Shrub");
+            votes.add("Hedge");
+            votes.add("Shrub");
+            votes.add("Bush");
+            votes.add("Hedge");
+            votes.add("Bush");
+            String output ="Bush";
+
+           assertEquals(obj.tally(votes), output);
+        }
+    }
+

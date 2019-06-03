@@ -22,13 +22,20 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="basiclibrary" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3">
-              <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+            <state relative-caret-position="419">
+              <caret line="132" column="1" lean-forward="true" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+              <folding>
+                <element signature="e#0#2022#0" expanded="true" />
+                <element signature="e#2858#2875#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,10 +43,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+            <state relative-caret-position="459">
+              <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2987#2995#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,8 +81,8 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" />
         <option value="$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/basiclibrary/Library.java" />
       </list>
     </option>
   </component>
@@ -155,7 +163,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559243379683" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1559520457954" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -203,22 +211,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LibraryTest.testAvgEven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="basiclibrary.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="basiclibrary.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="basiclibrary" />
-      <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
-      <option name="METHOD_NAME" value="testAvgEven" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LibraryTest.testAvgOdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="basiclibrary.test" />
       <extension name="coverage">
@@ -230,6 +222,22 @@
       <option name="PACKAGE_NAME" value="basiclibrary" />
       <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
       <option name="METHOD_NAME" value="testAvgOdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LibraryTest.testTally" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="basiclibrary.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basiclibrary.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="basiclibrary" />
+      <option name="MAIN_CLASS_NAME" value="basiclibrary.LibraryTest" />
+      <option name="METHOD_NAME" value="testTally" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -254,10 +262,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.LibraryTest.testWeather" />
+        <item itemvalue="JUnit.LibraryTest.testTally" />
         <item itemvalue="JUnit.LibraryTest.lowestAvgEvenArr" />
         <item itemvalue="JUnit.LibraryTest.lowestAvgOddArr" />
         <item itemvalue="JUnit.LibraryTest.testAvgOdd" />
-        <item itemvalue="JUnit.LibraryTest.testAvgEven" />
       </list>
     </recent_temporary>
   </component>
@@ -275,24 +283,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LibraryTest_testWeather - 2019.05.30 at 10h 55m 47s.xml">
-      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testWeather - 2019.05.30 at 10h 56m 49s.xml">
-      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testWeather - 2019.05.30 at 10h 58m 41s.xml">
-      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testWeather - 2019.05.30 at 11h 01m 09s.xml">
-      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testWeather - 2019.05.30 at 11h 12m 16s.xml">
-      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="LibraryTest_testWeather - 2019.05.30 at 11h 16m 49s.xml">
-      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="LibraryTest_testWeather - 2019.05.30 at 11h 21m 07s.xml">
       <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
     </history-entry>
@@ -305,18 +295,36 @@
     <history-entry file="LibraryTest_testWeather - 2019.05.30 at 12h 06m 46s.xml">
       <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="LibraryTest_testWeather - 2019.05.30 at 12h 07m 21s.xml">
+      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testWeather - 2019.06.01 at 20h 31m 08s.xml">
+      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testWeather - 2019.06.02 at 10h 07m 52s.xml">
+      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testWeather - 2019.06.02 at 10h 16m 53s.xml">
+      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testTally - 2019.06.02 at 10h 59m 06s.xml">
+      <configuration name="LibraryTest.testTally" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LibraryTest_testWeather - 2019.06.02 at 11h 07m 04s.xml">
+      <configuration name="LibraryTest.testWeather" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.14520743" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49820143" visible="true" weight="0.14520743" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50179857" side_tool="true" visible="true" weight="0.14520743" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33012047" />
@@ -371,13 +379,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3060">
-          <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -385,19 +386,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3060">
+          <caret line="204" column="5" selection-start-line="204" selection-start-column="5" selection-end-line="204" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/basiclibrary/Library.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3">
-          <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
+        <state relative-caret-position="419">
+          <caret line="132" column="1" lean-forward="true" selection-start-line="132" selection-start-column="1" selection-end-line="132" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#2022#0" expanded="true" />
+            <element signature="e#2858#2875#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/basiclibrary/LibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="93" column="50" selection-start-line="93" selection-start-column="50" selection-end-line="93" selection-end-column="50" />
+        <state relative-caret-position="459">
+          <caret line="121" lean-forward="true" selection-start-line="121" selection-end-line="121" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2987#2995#0" expanded="true" />
           </folding>
         </state>
       </provider>
