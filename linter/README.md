@@ -4,5 +4,5 @@ _lab 3_
 * This method will be able to find out errors in JavaScript files.
 
 [Code](./src/main/java/linter/App.java) |
-[Test](/src/test/java/linter/AppTest.java)
+[Test](./src/test/java/linter/AppTest.java)
 
