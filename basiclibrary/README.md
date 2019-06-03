@@ -1,4 +1,4 @@
-_lab 2_
+_lab 2 & 3_
 [Code](./src/main/java/basiclibrary/Library.java) |
 [Test](./src/test/java/basiclibrary/LibraryTest.java)
 
