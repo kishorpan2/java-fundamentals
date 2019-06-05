@@ -16,6 +16,6 @@ Restaurant and Reviews class is done by adding an addReview instance ti the Rest
 
 _**Links to code and Tests**_
 
-[Restaurant Code](./src/main/java/inheritance/Restaurant.java)|[Review Code](/src/main/java/inheritance/Review.java) | 
+[Restaurant Code](./src/main/java/inheritance/Restaurant.java)|[Review Code](./src/main/java/inheritance/Review.java) | 
 [RestaurantTest](./src/test/java/inheritance/RestaurantTest.java)|
 [Review Test](./src/test/java/inheritance/ReviewTest.java)
