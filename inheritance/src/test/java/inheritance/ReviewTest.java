@@ -6,16 +6,23 @@ import static org.junit.Assert.*;
 
 public class ReviewTest {
     @Test
-    public void testToString(){
-        Review obj = new Review("Not bad","XXYYYZZZ",5);
-        assertEquals("checking output",
-                "A review XXYYYZZZ5", obj.toString());
+        public void testReviewParameter(){
+        Review input = new Review("Bad service but good food", "Hess", 2);
+        int output=2;
+        assertEquals(input.getStars(),output);
     }
     @Test
-    public void updatedTestToString(){
-        Restaurant obj = new Restaurant("Hxx",4,"5");
-        Review obj1 = new Review("Not bad","XXYYYZZZ",obj,5);
-        assertEquals("Hxx",
-         obj1.name);
+    public void testBodyParameter(){
+        Review input = new Review("Bad service but good food", "Hess", 2);
+        String output= "Bad service but good food";
+        assertEquals(input.getBody(),output);
     }
+    @Test
+    public void testToString(){
+        Review input = new Review("Bad service but good food", "Hess", 2);
+        String output= "Author: Hess\n Comments: Bad service but good food\n Rating: 2";
+        assertEquals(input.toString(),output);
+    }
+
+
 }

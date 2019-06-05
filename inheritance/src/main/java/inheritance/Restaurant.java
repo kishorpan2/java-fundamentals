@@ -23,7 +23,7 @@ public class Restaurant {
         return this.name;
     }
 
-    public Integer getStars() {
+    public int getStars() {
         return this.stars;
     }
 
@@ -45,10 +45,39 @@ public class Restaurant {
         this.price = price;
 
     }
-
-    public String toString() {
-        return String.format("A restaurant named with stars " + this.name + this.stars);
-
+    public List<Review> getReviewList(){
+        return this.reviewList;
+    }
+    private void setReview(Review review){
+        updateStar(review.getStars());
+        this.reviewList.add(review);
+    }
+    public void addReview(Review review){
+        this.setReview(review);
+    }
+    private void updateStar(int rateStar){
+        this.setStar((int)(rateStar + this.getStars())/2);
     }
 
+    public String toString() {
+
+    StringBuilder results = new StringBuilder();
+    results.append("Restaurant: " + this.getName() + "\n Star: " + this.getStars() + "\n Price: " + this.getPrice());
+    results.append(getReviews(this.getReviewList()));
+    return results.toString();
+    }
+
+    private String getReviews(List<Review> list){
+        if(list.size() > 0){
+            StringBuilder review = new StringBuilder();
+            review.append("\n Reviews:\n");
+            for(Review item:list){
+                review.append("Author: " + item.getAuthor() +"\n Comments: " + item.getBody() + "\n Rating: " + item.getStars());
+            }
+            return review.toString();
+        }
+        else{
+            return "";
+        }
+    }
 }

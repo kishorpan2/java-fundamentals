@@ -7,30 +7,38 @@ public class Review {
     public String name;
 
 
-    public Review(String body, String author, Integer stars){
-        this.body = body;
-        this.author = author;
-        this.stars = stars;
-    }
+
     public String getBody() {
-        return body;
+        return this.body;
     }
 
     public String getAuthor() {
-        return author;
+        return this.author;
     }
-
-    public String toString() {
-        return String.format("A review " + this.author + this.stars);
+    public int getStars(){
+        return this.stars;
     }
-public Review(String body, String author, Restaurant restaurant, int stars){
-        this.body =body;
+    private void setBody(String body){
+        this.body = body;
+    }
+    private void setAuthor(String author){
         this.author = author;
-        this.name = restaurant.getName();
+    }
+    private void setStars(int stars){
         this.stars = stars;
     }
-    public String reviewToString() {
-        return String.format("A restaurant named with stars " + this.name + this.stars);
 
+
+    public Review(String body, String author, int stars){
+        this.setBody(body);
+        this.setAuthor(author);;
+        this.setStars(stars);
     }
+    public String toString() {
+        StringBuilder review = new StringBuilder();
+        review.append("Author: " + this.getAuthor() + "\n Comments: " + this.getBody() + "\n Rating: " + this.getStars());
+        return review.toString();
+    }
+
+
 }
