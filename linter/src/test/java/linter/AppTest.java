@@ -21,4 +21,47 @@ public class AppTest {
        //            expected,        actual
         assertEquals(obj.main(test), errorCount);
     }
+    @Test
+    public void testHasNoError(){
+        String[] test = new String[]{"/src/main/resources/hasAnError.js"};
+
+        App obj = new App();
+        int errorCount =0;
+
+        //            expected,        actual
+        assertEquals(obj.main(test), errorCount);
+
+    }
+    @Test
+    public void testHasFewErr(){
+        String[] test = new String[]{"/src/main/resources/hasFewErr.js"};
+
+        App obj = new App();
+        int errorCount =3;
+
+        //            expected,        actual
+        assertEquals(obj.main(test), errorCount);
+    }
+    @Test
+    public void testHasManyErr(){
+        String[] test = new String[]{"/src/main/resources/hasManyErr.js"};
+
+        App obj = new App();
+        int errorCount =3;
+
+        //            expected,        actual
+        assertEquals(obj.main(test), errorCount);
+    }
+    @Test
+    public void testIsEmpty(){
+        String[] test = new String[]{"/src/main/resources/isEmpty.js"};
+
+        App obj = new App();
+        int errorCount =0;
+
+        //            expected,        actual
+        assertEquals(obj.main(test), errorCount);
+    }
+
+
 }
