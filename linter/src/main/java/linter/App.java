@@ -14,10 +14,10 @@ public class App {
 
     public static int main(String[] args) {
 
-        return readJS(args[0]);
+        return readFile(args[0]);
     }
 
-public static int readJS(String path) {
+public static int readFile(String path) {
     int errorCount = 0;
     try {
         File file = new File(path);
@@ -26,7 +26,7 @@ public static int readJS(String path) {
         Scanner sc = new Scanner(file);
         while(sc.hasNextLine()) {
             String line =sc.nextLine();
-        if ((line.endsWith("{")) || (line.contains("else"))){
+        if ((line.endsWith("{")) || (line.endsWith("}"))){
             lineCount ++;
         }
         else if ((line.contains("if"))||(line.contains("else")) ){
